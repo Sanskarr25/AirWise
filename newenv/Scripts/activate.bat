@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=F:\Air Quality\AirQualityIndex-Prediction-master\newenv
+set VIRTUAL_ENV=D:\Projects\AirWise\newenv
 
 if not defined PROMPT set PROMPT=$P$G
 
