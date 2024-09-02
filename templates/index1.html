@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="newStyle.css" />
+    <title>AirWise</title>
+    <style></style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo"><strong>Air</strong>Wise</a>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Predictions</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <div>
+        <h1>Welcome to Airwise</h1>
+        <p>Discover the air quality in your area</p>
+        <button class="explore-btn">Explore Now</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 AirWise. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", mobileMenu);
+
+      function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
+
+      const navLink = document.querySelectorAll(".nav-links a");
+
+      navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+      function closeMenu() {
+        hamburger.classList.remove("active");
+        navLinks.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
