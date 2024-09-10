@@ -20,6 +20,7 @@
 **Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
 <p><strong>Screenshot</strong>:<br></p>
 <div class="figure" align="center">
-<img width="800" height="400" src="https://github.com/khwajaavais/AirQualityIndex-Prediction/blob/b9a11cfdbc015760a5c2c458db35d64e5bf0a12e/templates/AQI%20Index%201.png" alt="Screenshot" /><p class="caption"></p>
-<img width="800" height="400" src="https://github.com/khwajaavais/AirQualityIndex-Prediction/blob/b9a11cfdbc015760a5c2c458db35d64e5bf0a12e/templates/AQI%20Predict%201.png" alt="Screenshot" /><p class="caption"></p>
+<img width="800" height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png" alt="Screenshot" /><p class="caption"></p>
+<img width="800" height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_input.png" alt="Screenshot" /><p class="caption"></p>
+<img width="800" height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_output.png" alt="Screenshot" /><p class="caption"></p>
 </div>
