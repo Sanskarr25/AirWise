@@ -1,6 +1,5 @@
-<h1 id="air-quality-index-prediction">Air Quality Index (AQI) Prediction</h1>
+<h1 id="air-quality-index-prediction">AirWise - Your Air Quality Index Prediction</h1>
 
-**Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
 <br>
 <p>Webapp to predict the Air Quality Index of Mumbai region given climate conditions.</p>
 <p><strong>Motivation for this project</strong>:<br /><strong>Krish Naik's Air Quality Index Prediction Project</strong>: https://www.youtube.com/watch?v=CTu0qnuMxgA.<br /><strong>Code</strong>: https://github.com/krishnaik06/AQI-Project</p>
@@ -14,10 +13,10 @@
 <li><strong>Data Preprocessing</strong>:<br />For this step, I have taken the data from Krish Naik's project as it was from a paid API.<br />Reference: https://github.com/krishnaik06/AQI-Project/tree/master/Data/AQI.<br />This data contained hourly measurements of AQI.<br />This was converted into a dictionary format where the dictionary key is the year and values are the daily AQI values.<br />Next, the data in step 1 was combined with data of this step to create a new CSV file.</li><br>
 <li><strong>Data Cleaning</strong>: <br />The CSV file created in step 2 was cleaned to remove null values and improper data. A new resultant CSV file was created.</li><br>
 <li><strong>Feature Engineering and Model Creation</strong>: <br />Tried various algorithms, like Linear Regression, Lasso and Ridge Regression, Decision Tree Regressor, Random Forest Regressor, XGBoost Regressor.<br />Random Forest and XGBoost gave best performance. <b>Finally, used Random Forest Regressor to perform predictions.</b></li>(execute individual jupyter notebooks)<br><br>
-<li><strong>Model Deployment</strong>: (execute flask-app in project root, run the app.py file and hit http://127.0.0.1:5000/)<br />Used HTML-CSS frontend to make API calls to Flask REST API backend.<br />Finally deployed on Heroku platform.</li>
+<li><strong>Model Deployment</strong>: (execute flask-app in project root, run the app.py file and hit http://127.0.0.1:5000/)<br />Used HTML-CSS frontend to make API calls to Flask REST API backend.<br /></li>
 </ol>
 <p>You can enter various climate details. Finally, click submit button and get your results for Air Quality Index.</p>
-**Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
+
 <p><strong>Screenshots from Websites</strong>:<br></p>
 <div class="figure" align="center">
 <img width="800" height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png" alt="Screenshot" /><p class="caption"></p>
