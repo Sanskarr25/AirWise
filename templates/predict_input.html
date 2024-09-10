@@ -1,0 +1,105 @@
+{% extends "base.html" %} {% block title %}Predict - AirWise{% endblock %} {%
+block content %}
+<div class="container">
+  <h1>Predict Air Quality in Mumbai</h1>
+  <form
+    class="registration-form"
+    action="{{ url_for('predict')}}"
+    method="post"
+  >
+    <div class="form-section">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="avg-temp">Average Temperature*</label>
+          <input
+            type="text"
+            name="T"
+            id="avg-temp"
+            placeholder="Enter in °C"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <label for="max-temp">Max Temperature*</label>
+          <input
+            type="number"
+            name="TM"
+            id="max-temp"
+            placeholder="Enter in °C"
+            required="required"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="min-temp">Min Temperature*</label>
+          <input
+            type="number"
+            name="Tm"
+            id="min-temp"
+            placeholder="Enter in °C"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <label for="pressure">Atmospheric Pressure*</label>
+          <input
+            type="text"
+            name="SLP"
+            id="pressure"
+            placeholder="Enter in hPa"
+            required="required"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="humidity">Average Humidity*</label>
+          <input
+            type="text"
+            name="H"
+            id="humidity"
+            placeholder="Enter in %"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <label for="visibility">Average Visibility*</label>
+          <input
+            type="text"
+            name="VV"
+            id="visibility"
+            placeholder="Enter in km"
+            required="required"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="wind-speed">Average Wind Speed*</label>
+          <input
+            type="text"
+            name="V"
+            id="wind-speed"
+            placeholder="Enter in km/h"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <label for="max-wind-speed">Max Sustained Wind Speed*</label>
+          <input
+            type="text"
+            name="VM"
+            id="max-wind-speed"
+            placeholder="Enter in km/h"
+            required="required"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="next-button">Predict ▷</button>
+    </div>
+  </form>
+</div>
+{% endblock %}
