@@ -18,7 +18,7 @@
 </ol>
 <p>You can enter various climate details. Finally, click submit button and get your results for Air Quality Index.</p>
 **Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
-<p><strong>Screenshot</strong>:<br></p>
+<p><strong>Screenshots from Websites</strong>:<br></p>
 <div class="figure" align="center">
 <img width="800" height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png" alt="Screenshot" /><p class="caption"></p>
 <img width="800" height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_input.png" alt="Screenshot" /><p class="caption"></p>
