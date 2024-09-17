@@ -55,7 +55,7 @@
 ###
 
 <div align="center">
-  <img height="400" src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png"  />
+  <img height="350" src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png"  />
 </div>
 
 ###
