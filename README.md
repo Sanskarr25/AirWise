@@ -1,4 +1,4 @@
-<h1 align="center">AirWise - Predict Air Quality Index</h1>
+<h1>AirWise - Predict Air Quality Index</h1>
 
 ###
 
