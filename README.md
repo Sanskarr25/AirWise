@@ -55,19 +55,19 @@
 ###
 
 <div align="center">
-  <img height="350" src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png"  />
+  <img src="https://github.com/Sanskarr25/AirWise/blob/main/images/Home.png"  />
 </div>
 
 ###
 
 <div align="center">
-  <img height="350" src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_input.png"  />
+  <img src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_input.png"  />
 </div>
 
 ###
 
 <div align="center">
-  <img height="350" src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_output.png"  />
+  <img src="https://github.com/Sanskarr25/AirWise/blob/main/images/predict_output.png"  />
 </div>
 
 ###
