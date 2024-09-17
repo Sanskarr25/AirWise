@@ -6,7 +6,7 @@
 
 ###
 
-<h4 align="left">Project Life-Cycle :</h4>
+<h3 align="left">Project Life-Cycle :</h4>
 
 ###
 
@@ -26,7 +26,7 @@
 
 ###
 
-<h4 align="left">Tech-Stack :</h4>
+<h3 align="left">Tech-Stack :</h4>
 
 ###
 
@@ -50,7 +50,7 @@
 
 ###
 
-<h4 align="left">Screenshots :</h4>
+<h3 align="left">Screenshots :</h4>
 
 ###
 
