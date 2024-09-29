@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">2. Data Preprocessing:<br>For this step, I have taken the data from Krish Naik's project as it was from a paid API.<br>Reference: https://github.com/krishnaik06/AQI-Project/tree/master/Data/AQI.<br>This data contained hourly measurements of AQI.<br>This was converted into a dictionary format where the dictionary key is the year and values are the daily AQI values.<br>Next, the data in step 1 was combined with data of this step to create a new CSV file.</p>
+<p align="left">2. Data Preprocessing:<br>For this step, the data is taken from Krish Naik's project.<br>Reference: https://github.com/krishnaik06/AQI-Project/tree/master/Data/AQI.<br>This data contained hourly measurements of AQI.<br>This was converted into a dictionary format where the dictionary key is the year and values are the daily AQI values.<br>Next, the data in step 1 was combined with data of this step to create a new CSV file.</p>
 
 ###
 
